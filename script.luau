@@ -7,9 +7,9 @@
 
 
    160
-   4, 20, 85
+   4, 20, 160
    3, 67, 218
-   58, 58, 136
+   
    #2a2df7
 
 --]]
@@ -6456,7 +6456,7 @@ function Fatality:Loader(Config: Loader)
 		ASCII.Size = UDim2.new(0, textsize.X + 100, 0, 50)
 		LIT.Size = UDim2.new(0, (textsize.X * 2.5) + (UText[TEXT] or 0), 0, 100)
 
-		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(3, 67, 218)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 58, 136))}
+		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(3, 67, 218)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(4, 20, 160))}
 		UIGradient.Rotation = 88
 		UIGradient.Parent = ASCII
 
@@ -6514,7 +6514,7 @@ function Fatality:Loader(Config: Loader)
 
 		StartText.Size = UDim2.new(0, baseSIZX + 100, 0, 50)
 
-		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(3, 67, 218)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 58, 136))}
+		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(3, 67, 218)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 58, 160))}
 		UIGradient.Rotation = 88
 		UIGradient.Parent = StartText
 
