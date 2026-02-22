@@ -4,6 +4,14 @@
     Author: 4lpaca
     License: MIT
     Github: https://github.com/4lpaca-pin/Fatality
+
+
+   160
+   4, 20, 85
+   3, 67, 218
+   58, 58, 136
+   #2a2df7
+
 --]]
 
 -- Export Types --
@@ -289,7 +297,7 @@ Fatality.FontSemiBold = Font.new('rbxasset://fonts/families/GothamSSm.json',Enum
 Fatality.Flags = {};
 Fatality.Colors = {
 	Black = Color3.fromRGB(8, 8, 8),
-	Main = Color3.fromRGB(4, 20, 85)
+	Main = Color3.fromRGB(4, 20, 160)
 };
 Fatality.DragBlacklist = {};
 Fatality.Version = '1.6';
