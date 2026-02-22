@@ -2393,7 +2393,7 @@ function Fatality:CreateElements(Parent : Frame , ZIndex : number , Event : Bind
 		Toggle_Name.Size = UDim2.new(1, 0, 0.800000012, 0)
 		Toggle_Name.ZIndex = ZIndex + 2
 		Toggle_Name.FontFace = Fatality.FontSemiBold;
-		Toggle_Name.TextColor3 = (Config.Risky and Color3.fromRGB(255, 160, 92)) or Color3.fromRGB(255, 255, 255)
+		Toggle_Name.TextColor3 = (Config.Risky and Color3.fromRGB(4, 20, 140)) or Color3.fromRGB(255, 255, 255)
 		Toggle_Name.TextSize = 13.000
 		Toggle_Name.TextTransparency = 1
 		Toggle_Name.TextXAlignment = Enum.TextXAlignment.Left;
@@ -2613,7 +2613,7 @@ function Fatality:CreateElements(Parent : Frame , ZIndex : number , Event : Bind
 		Slider_Name.ZIndex = ZIndex + 2
 		Slider_Name.FontFace = Fatality.FontSemiBold
 		Slider_Name.Text = Config.Name
-		Slider_Name.TextColor3 = (Config.Risky and Color3.fromRGB(255, 160, 92)) or Color3.fromRGB(255, 255, 255)
+		Slider_Name.TextColor3 = (Config.Risky and Color3.fromRGB(4, 20, 160)) or Color3.fromRGB(255, 255, 255)
 		Slider_Name.TextSize = 13.000
 		Slider_Name.TextTransparency = 0.200
 		Slider_Name.TextXAlignment = Enum.TextXAlignment.Left
@@ -2846,7 +2846,7 @@ function Fatality:CreateElements(Parent : Frame , ZIndex : number , Event : Bind
 		Button_Name.ZIndex = ZIndex + 2
 		Button_Name.FontFace = Fatality.FontSemiBold
 		Button_Name.Text = Config.Name
-		Button_Name.TextColor3 = (Config.Risky and Color3.fromRGB(255, 160, 92)) or Color3.fromRGB(255, 255, 255)
+		Button_Name.TextColor3 = (Config.Risky and Color3.fromRGB(4, 20, 160)) or Color3.fromRGB(255, 255, 255)
 		Button_Name.TextSize = 12.000
 		Button_Name.TextTransparency = 0.400
 		Fatality:ProtectText(Button_Name,Config.Name);
@@ -4453,7 +4453,7 @@ function Fatality.new(Window: Window)
 	HeaderText.Text = Window.Name
 	HeaderText.TextColor3 = Color3.fromRGB(229, 229, 229)
 	HeaderText.TextSize = 21.000
-	HeaderText.TextStrokeColor3 = Color3.fromRGB(205, 67, 218)
+	HeaderText.TextStrokeColor3 = Color3.fromRGB(3, 67, 218)
 	HeaderText.TextStrokeTransparency = 0.640
 
 	MenuButtonCont.Name = Fatality:RandomString()
@@ -6448,7 +6448,7 @@ function Fatality:Loader(Config: Loader)
 		ASCII.Size = UDim2.new(0, textsize.X + 100, 0, 50)
 		LIT.Size = UDim2.new(0, (textsize.X * 2.5) + (UText[TEXT] or 0), 0, 100)
 
-		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 116, 116)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(132, 58, 58))}
+		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(3, 67, 218)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 58, 136))}
 		UIGradient.Rotation = 88
 		UIGradient.Parent = ASCII
 
@@ -6506,7 +6506,7 @@ function Fatality:Loader(Config: Loader)
 
 		StartText.Size = UDim2.new(0, baseSIZX + 100, 0, 50)
 
-		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 116, 116)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(132, 58, 58))}
+		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(3, 67, 218)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 58, 136))}
 		UIGradient.Rotation = 88
 		UIGradient.Parent = StartText
 
